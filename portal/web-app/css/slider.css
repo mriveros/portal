@@ -1,0 +1,135 @@
+div#container {
+    position: relative;
+    width: 1140px;
+    height: 428px;
+    margin: 20px auto;
+    padding: 5px;
+    background-color: #f6f6f6;
+    box-shadow: 1px 20px 27px -21px #000000;
+    border: 2px solid #ececec;
+}
+
+div#container span{
+    position: absolute;
+}
+
+
+
+div#container span.slide1{
+    z-index: 10;
+    -webkit-animation: slider1 100s linear 5s infinite normal
+}
+@-webkit-keyframes slider1{
+0%{opacity:1}
+5%{opacity:0}
+85%{opacity:0}
+95%{opacity:1}
+}
+
+
+div#container span.slide2{
+    z-index: 9;
+    -webkit-animation: slider2 100s linear 15s infinite normal
+}
+@-webkit-keyframes slider2{
+0%{opacity:1}
+5%{opacity:0}
+85%{opacity:0}
+95%{opacity:1}
+}
+
+
+div#container span.slide3{
+    z-index: 8;
+    -webkit-animation: slider3 100s linear 25s infinite normal
+}
+@-webkit-keyframes slider3{
+0%{opacity:1}
+5%{opacity:0}
+85%{opacity:0}
+95%{opacity:1}
+}
+
+
+div#container span.slide4{
+    z-index: 7;
+    -webkit-animation: slider4 100s linear 35s infinite normal
+}
+@-webkit-keyframes slider4{
+0%{opacity:1}
+5%{opacity:0}
+85%{opacity:0}
+95%{opacity:1}
+}
+
+
+div#container span.slide5{
+    z-index: 6;
+    -webkit-animation: slider5 100s linear 45s infinite normal
+}
+@-webkit-keyframes slider5{
+0%{opacity:1}
+5%{opacity:0}
+85%{opacity:0}
+95%{opacity:1}
+}
+
+
+div#container span.slide6{
+    z-index: 5;
+    -webkit-animation: slider6 100s linear 55s infinite normal
+}
+@-webkit-keyframes slider6{
+0%{opacity:1}
+5%{opacity:0}
+85%{opacity:0}
+95%{opacity:1}
+}
+
+
+div#container span.slide7{
+    z-index: 4;
+    -webkit-animation: slider7 100s linear 65s infinite normal
+}
+@-webkit-keyframes slider7{
+0%{opacity:1}
+5%{opacity:0}
+85%{opacity:0}
+95%{opacity:1}
+}
+
+
+div#container span.slide8{
+    z-index: 3;
+    -webkit-animation: slider8 100s linear 75s infinite normal
+}
+@-webkit-keyframes slider8{
+0%{opacity:1}
+5%{opacity:0}
+85%{opacity:0}
+95%{opacity:1}
+}
+
+
+div#container span.slide9{
+    z-index: 2;
+    -webkit-animation: slider9 100s linear 85s infinite normal
+}
+@-webkit-keyframes slider9{
+0%{opacity:1}
+5%{opacity:0}
+85%{opacity:0}
+95%{opacity:1}
+}
+
+
+div#container span.slide10{
+    z-index: 1;
+    -webkit-animation: slider10 100s linear 95s infinite normal
+}
+@-webkit-keyframes slider10{
+0%{opacity:1}
+5%{opacity:0}
+85%{opacity:0}
+95%{opacity:1}
+}
